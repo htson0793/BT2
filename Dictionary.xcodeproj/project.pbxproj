@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EF204CCA216233480068AF3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF204CC9216233480068AF3F /* AppDelegate.swift */; };
-		EF204CCC216233480068AF3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF204CCB216233480068AF3F /* ViewController.swift */; };
+		EF204CCC216233480068AF3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF204CCB216233480068AF3F /* LoginViewController.swift */; };
 		EF204CCF216233480068AF3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF204CCD216233480068AF3F /* Main.storyboard */; };
 		EF204CD1216233490068AF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF204CD0216233490068AF3F /* Assets.xcassets */; };
 		EF204CD4216233490068AF3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF204CD2216233490068AF3F /* LaunchScreen.storyboard */; };
 		EF204CDF216233490068AF3F /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF204CDE216233490068AF3F /* DictionaryTests.swift */; };
 		EF204CEA216233490068AF3F /* DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF204CE9216233490068AF3F /* DictionaryUITests.swift */; };
+		EF204D3221623F1F0068AF3F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF204D3121623F1F0068AF3F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		EF204CC6216233480068AF3F /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF204CC9216233480068AF3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF204CCB216233480068AF3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF204CCB216233480068AF3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EF204CCE216233480068AF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF204CD0216233490068AF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF204CD3216233490068AF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		EF204CE5216233490068AF3F /* DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF204CE9216233490068AF3F /* DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUITests.swift; sourceTree = "<group>"; };
 		EF204CEB216233490068AF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF204D3121623F1F0068AF3F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				EF204CC9216233480068AF3F /* AppDelegate.swift */,
-				EF204CCB216233480068AF3F /* ViewController.swift */,
+				EF204CCB216233480068AF3F /* LoginViewController.swift */,
 				EF204CCD216233480068AF3F /* Main.storyboard */,
 				EF204CD0216233490068AF3F /* Assets.xcassets */,
 				EF204CD2216233490068AF3F /* LaunchScreen.storyboard */,
 				EF204CD5216233490068AF3F /* Info.plist */,
+				EF204D3121623F1F0068AF3F /* MainViewController.swift */,
 			);
 			path = Dictionary;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF204CCC216233480068AF3F /* ViewController.swift in Sources */,
+				EF204D3221623F1F0068AF3F /* MainViewController.swift in Sources */,
+				EF204CCC216233480068AF3F /* LoginViewController.swift in Sources */,
 				EF204CCA216233480068AF3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
